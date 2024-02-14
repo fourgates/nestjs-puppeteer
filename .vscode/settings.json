@@ -1,0 +1,40 @@
+{
+  "editor.formatOnSave": true,
+  "editor.tabSize": 2,
+  "eslint.validate": [
+    "javascript"
+  ],
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.codeActionsOnSave": [
+      "source.organizeImports",
+      "source.fixAll.eslint"
+    ],
+    "editor.formatOnSave": true
+  },
+  "[java]": {
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": true,
+      "source.fixAll": true
+    },
+    "editor.formatOnSave": true
+  },
+  "[scss]": {
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": true,
+      "source.fixAll": true
+    },
+    "editor.formatOnSave": true
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  },
+  "javascript.implicitProjectConfig.experimentalDecorators": true,
+  "[java][scss]": {
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": "explicit",
+      "source.fixAll": "explicit"
+    }
+  }
+}
